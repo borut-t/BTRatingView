@@ -5,4 +5,4 @@ Simple 5 star rating view derived from Ray Wenderlich tutorial: http://bit.ly/1f
 
 
 ##Preview
-![iPhone portrait](https://github.com/borut-t/BTButton/raw/master/Screenshots/preview.png)
+![iPhone portrait](https://github.com/borut-t/BTRatingView/raw/master/Screenshots/preview.png)
