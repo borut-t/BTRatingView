@@ -40,7 +40,7 @@
 		BF684BFB1861A75000C827A6 /* BTRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRatingView.m; sourceTree = "<group>"; };
 		BF684BFE1861A9CA00C827A6 /* rateOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rateOff.png; sourceTree = "<group>"; };
 		BF684BFF1861A9CA00C827A6 /* rateOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rateOn.png; sourceTree = "<group>"; };
-		BF684C021861ACC000C827A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF684C021861ACC000C827A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,6 @@
 		BF684BB31861A68300C827A6 = {
 			isa = PBXGroup;
 			children = (
-				BF684C021861ACC000C827A6 /* Default-568h@2x.png */,
 				BF684BC51861A68400C827A6 /* BTRatingView */,
 				BF684BBE1861A68300C827A6 /* Frameworks */,
 				BF684BBD1861A68300C827A6 /* Products */,
@@ -125,6 +124,7 @@
 		BF684BFD1861A9BC00C827A6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BF684C021861ACC000C827A6 /* Default-568h@2x.png */,
 				BF684BFE1861A9CA00C827A6 /* rateOff.png */,
 				BF684BFF1861A9CA00C827A6 /* rateOn.png */,
 			);
@@ -294,10 +294,11 @@
 		BF684BF21861A68400C827A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTRatingView/BTRatingView-Prefix.pch";
 				INFOPLIST_FILE = "BTRatingView/BTRatingView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,10 +307,11 @@
 		BF684BF31861A68400C827A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTRatingView/BTRatingView-Prefix.pch";
 				INFOPLIST_FILE = "BTRatingView/BTRatingView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
