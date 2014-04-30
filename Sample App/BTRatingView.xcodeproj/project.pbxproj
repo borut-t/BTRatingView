@@ -157,7 +157,7 @@
 		BF684BB41861A68300C827A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Borut Tomažin";
 			};
 			buildConfigurationList = BF684BB71861A68300C827A6 /* Build configuration list for PBXProject "BTRatingView" */;
@@ -294,7 +294,6 @@
 		BF684BF21861A68400C827A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTRatingView/BTRatingView-Prefix.pch";
 				INFOPLIST_FILE = "BTRatingView/BTRatingView-Info.plist";
@@ -307,7 +306,6 @@
 		BF684BF31861A68400C827A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTRatingView/BTRatingView-Prefix.pch";
 				INFOPLIST_FILE = "BTRatingView/BTRatingView-Info.plist";

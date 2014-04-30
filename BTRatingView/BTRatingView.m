@@ -1,7 +1,7 @@
 //
 //  BTRatingView.m
 //
-//  Version 1.0
+//  Version 1.0.1
 //
 //  Created by Borut Tomazin on 12/18/2013.
 //  Copyright 2013 Borut Tomazin
